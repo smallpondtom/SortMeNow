@@ -1,4 +1,4 @@
-#include <SelectionSort.hpp>
+#include <HeapSort.hpp>
 #include <algorithm>
 #include <iostream>
 #include <time.h>
@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
   printArray(arr, n);
 
   // Sorting algorithm
-  selectionSort(arr, n);
+  heapSort(arr, n);
 
   // Print out sorted array
   printArray(arr, n);
