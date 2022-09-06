@@ -1,4 +1,4 @@
-#include <BubbleSort.hpp>
+#include <TreeSort.hpp>
 #include <algorithm>
 #include <iostream>
 #include <time.h>
@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
   printArray(arr, n);
 
   // Sorting algorithm
-  bubbleSort(arr, n);
+  treeSort(arr, n);
 
   // Print out sorted array
   printArray(arr, n);
