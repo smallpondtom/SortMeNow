@@ -1,4 +1,4 @@
-#include <TreeSort.hpp>
+#include <RadixSort.hpp>
 #include <algorithm>
 #include <iostream>
 #include <time.h>
@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
   printArray(arr, n);
 
   // Sorting algorithm
-  treeSort(arr, n);
+  radixSort(arr, n);
 
   // Print out sorted array
   printArray(arr, n);
