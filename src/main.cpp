@@ -1,4 +1,4 @@
-#include <RadixSort.hpp>
+#include <gnomeSort.hpp>
 #include <algorithm>
 #include <iostream>
 #include <time.h>
@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
   printArray(arr, n);
 
   // Sorting algorithm
-  radixSort(arr, n);
+  gnomeSort(arr, n);
 
   // Print out sorted array
   printArray(arr, n);
